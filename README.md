@@ -1,7 +1,6 @@
 # Epitech Projects
 Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
-[![Epitech.png](https://s28.postimg.org/jzsjsjkod/smile.png)](https://postimg.org/image/907cgxu95/)
-[![Epitech.png](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Epitech.png/1598px-Epitech.png)]
+[Epitech.png](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Epitech.png/1598px-Epitech.png =250x)
 
 ## CProjects
 A collection of projects written in C.
