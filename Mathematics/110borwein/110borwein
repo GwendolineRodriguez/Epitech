@@ -1,0 +1,71 @@
+#!/usr/bin/python -O
+# -*- coding: utf-8 -*-
+## 110borwein for 110borwein in /home/rodrig_1/rendu/Maths/110borwein
+##
+## Made by gwendoline rodriguez
+## Login   <rodrig_1@epitech.net>
+##
+## Started on  Thu Dec  4 11:17:48 2014 gwendoline rodriguez
+## Last update Tue Apr 14 15:41:01 2015 gwendoline rodriguez
+##
+
+import sys
+import math as mt
+import numpy as np
+import io
+
+def fx(n, x):
+    res = 1
+    k = 0
+    while (k <= n):
+        if (x != 0):
+            res = res * (np.sin(x / ((2 * k) + 1)) / (x / ((2 * k) + 1)))
+        k = k + 1
+    return (res)
+
+try:
+    if (len(sys.argv) == 2 and float(sys.argv[1]) >= 0 and float(sys.argv[1]) <= 5000):
+        n = float(sys.argv[1]);
+        k = 0
+        resrec = 0
+        i = 0
+        while (i < 10000):
+            resrec = resrec + fx(int(sys.argv[1]), i * 0.5)
+            i = i + 1
+        resrec = resrec * 0.5
+        print("méthode des rectangles:")
+        print('I' + str(sys.argv[1]) + ': ' + str(resrec))
+        print('Diff: ' + str(resrec - np.pi / 2))
+
+        restrap = 0
+        res = 0
+        i = 1
+        while (i < 10000):
+            res = res + fx(int(sys.argv[1]), i * 0.5)
+            restrap = ((res * 2) + fx(int(sys.argv[1]), 0) + fx(int(sys.argv[1]), 5000)) * (0.25)
+            i = i + 1
+        restrap = ((res * 2) + fx(int(sys.argv[1]), 0) + fx(int(sys.argv[1]), 5000)) * (0.25)
+        print("méthode des trapezes:")
+        print('I' + str(sys.argv[1]) + ': ' + str(restrap))
+        print('Diff: ' + str(restrap - np.pi / 2))
+
+        res1 = 0
+        res2 = 0
+        res3 = 0
+        i = 1
+        while (i < 10000):
+             res1 = res1 + fx(int(sys.argv[1]), i * 0.5)
+             i = i + 1
+
+        i = 0
+        while (i < 10000):
+            res2 = res2 + fx(int(sys.argv[1]), (i * 0.5) + 0.25)
+            i = i + 1
+        res3 = ((res1 * 2) + (res2 * 4) + fx(int(sys.argv[1]), 0) + fx(int(sys.argv[1]), 5000)) * 0.083333333
+        print("méthode de Simpson:")
+        print('I' + str(sys.argv[1]) + ': ' + str(res3))
+        print('Diff: ' + str(res3 - np.pi / 2))
+    else:
+        import usage
+except ValueError:
+    print("An error has been detected.")

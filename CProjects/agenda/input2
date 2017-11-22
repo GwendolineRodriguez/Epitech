@@ -1,0 +1,10 @@
+new_employee Hasselhoff David PDG 13000 1
+new_employee Anderson Pamela DDR 31000 2
+new_employee LeeNolin Gena DDR 94270 3
+new_employee Charvet David DPR 54000 4
+new_meeting 57000 25/12/2034 10 1 2 3 4
+new_meeting 13000 01/05/2034 11 1 4
+new_meeting 46800 01/05/2034 12 1 3
+fire 4
+info_employees sortByName
+END

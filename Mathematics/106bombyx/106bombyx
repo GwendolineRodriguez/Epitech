@@ -1,0 +1,31 @@
+#!/usr/bin/python -O
+# -*- coding: utf-8 -*-
+## 106bombyx for 106bombyx in /home/rodrig_1/rendu/Maths/103architecte
+##
+## Made by gwendoline rodriguez
+## Login   <rodrig_1@epitech.net>
+##
+## Started on  Thu Dec  4 11:17:48 2014 gwendoline rodriguez
+## Last update Mon Feb 23 11:32:09 2015 gwendoline rodriguez
+##
+
+import sys
+import math as mt
+import numpy as n
+import matplotlib.pyplot as plt
+
+array = []
+i = 0
+if (len(sys.argv) == 2 and float(sys.argv[1]) >= 1 and float(sys.argv[1]) <= 4):
+    k = float(sys.argv[1])
+    x1 = 10
+    x = []
+    while (i <= 100):
+        x1 = k * x1 * (1000 - x1) / 1000.0
+        array.append(x1)
+        x.append(i)
+        i = i + 1
+    plt.plot(x, array)
+    plt.show()
+else:
+    import usage

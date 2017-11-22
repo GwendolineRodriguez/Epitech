@@ -1,0 +1,8 @@
+:test option 1 simple
+@ #Simpson Bart
+< entree_1
+> sortie_attendue_1
+:test option 2 simple
+@ arg21 arg22 arg23
+< entree_2
+> sortie_attendue_2

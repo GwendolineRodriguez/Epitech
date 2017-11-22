@@ -1,0 +1,130 @@
+//
+ // droid.cpp for droid in /home/gwendoline/Epitech/Tek2/rendu/Piscine_cpp/piscine_cpp_d08/ex00
+//
+// Made by Gwendoline Rodriguez
+// Login   <gwendoline@epitech.net>
+//
+// Started on  Wed Jan 13 10:19:08 2016 Gwendoline Rodriguez
+// Last update Wed Jan 13 22:51:53 2016 Gwendoline Rodriguez
+//
+
+#include "droid.hh"
+
+std::ostream& operator <<(std::ostream& os, Droid const& droid)
+{
+  os << "Droid '" << droid.getId() << "', " << *droid.getStatus() << ", " << droid.getEnergy();
+  return os;
+}
+
+Droid::Droid() : Id(""), Energy(50), Attack(25), Toughness(15), Status(new std::string("Standing by"))
+{
+  std::cout << "Droid '' Activated" << std::endl;
+}
+
+Droid::Droid(std::string Id) : Energy(50), Attack(25), Toughness(15), Status(new std::string("Standing by"))
+{
+  this->Id = Id;
+  std::cout << "Droid '" << Id << "' Activated" << std::endl;
+}
+
+Droid::Droid(Droid const &droid) : Id(droid.getId()), Energy(droid.getEnergy()), Attack(25), Toughness(15), Status(new std::string(*droid.getStatus()))
+{
+  std::cout << "Droid '" << this->Id << "' Activated, Memory Dumped" << std::endl;
+}
+
+Droid&  Droid::operator=(Droid const &droid) {
+  if (&droid != this)
+    {
+      this->Id = droid.getId();
+      this->Energy = droid.getEnergy();
+      if (this->Status)
+        delete this->Status;
+      this->Status = new std::string(*droid.getStatus());
+    }
+  return *this;
+}
+
+Droid::~Droid() {
+  delete this->Status;
+  std::cout << "Droid '" << this->Id << "' Destroyed" << std::endl;
+}
+
+
+
+
+
+size_t  Droid::getEnergy() const{
+  return (this->Energy);
+}
+
+void    Droid::setEnergy(size_t Energy) {
+  if (Energy > 100)
+    this->Energy = 100;
+  else
+    this->Energy = Energy;
+}
+
+std::string Droid::getId() const {
+  return (this->Id);
+}
+void    Droid::setId(std::string Id) {
+  this->Id = Id;
+}
+
+std::string *Droid::getStatus() const {
+  return (this->Status);
+}
+
+void Droid::setStatus(std::string *status) {
+  this->Status = status;
+}
+
+size_t Droid::getAttack() const{
+  return (this->Attack);
+}
+
+size_t Droid::getToughness() const {
+  return (this->Toughness);
+}
+
+bool    Droid::operator==(Droid const &droid) const {
+  return (this->Id == droid.getId() && this->Status->compare(*droid.getStatus()) == 0 && this->Energy == droid.getEnergy());
+}
+
+bool    Droid::operator!=(Droid const &droid) const {
+  return (this->Id != droid.getId() || this->Status->compare(*droid.getStatus()) != 0 || this->Energy != droid.getEnergy());
+}
+
+Droid&    Droid::operator<<(size_t &reload)
+{
+  size_t value;
+
+  if (this->Energy >= 100) {
+    this->Energy = 100;
+    return *this;
+  }
+  if (this->Energy + reload >= 100)
+    value = 100 - this->Energy;
+  else        value = reload;
+  this->Energy += value;
+  reload -= value;
+  return *this;
+}
+
+// int main()
+// {
+//   Droid d;
+//   Droid d1("Avenger");
+//   size_t Durasel = 200;
+
+//   std::cout << d << std::endl;
+//   std::cout << d1 << std::endl;
+//   d = d1;
+//   d.setStatus(new std::string("Kill Kill Kill!"));
+//   d << Durasel;
+//   std::cout << d << "--" << Durasel << std::endl;
+//   Droid d2 = d;
+//   d.setId("Rex");
+//   std::cout << (d2 != d) << std::endl;
+//   return (0);
+// }

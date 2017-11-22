@@ -1,0 +1,17 @@
+new_employee Bear Tenderheart PDG 13000 1
+new_employee Penguin Cozyheart DDR 31000 2
+new_employee Bear LoveAlot DDR 94270 3
+new_employee Pig Treatheart DPR 54000 4
+new_meeting 59330 14/04/2034 10 1 2 4
+new_meeting 67100 13/04/2034 11 1 3
+invite 10 3
+invite 11 4 1 3 2
+exclude 10 1
+fire 4
+info_meetings
+info_employees
+END
+fo_employees sortByName 2 4
+info_employees sortByFootSize 2 3
+info_employees sortByZip 2 3
+END

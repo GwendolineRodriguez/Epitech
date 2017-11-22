@@ -1,0 +1,34 @@
+/*
+** generic_list.c for generic_list in /home/gwendoline/Epitech/Tek2/rendu/Piscine_cpp/piscine_cpp_d02a/ex02
+**
+** Made by Gwendoline Rodriguez
+** Login   <gwendoline@epitech.net>
+**
+** Started on  Thu Jan  7 20:00:09 2016 Gwendoline Rodriguez
+** Last update Thu Jan  7 20:04:32 2016 Gwendoline Rodriguez
+*/
+
+int main(void)
+{
+  t_list list_head = NULL;
+  unsigned int size;
+  int i = 5;
+  int j = 42;
+  int k = 3;
+
+  list_add_elem_at_back(&list_head, &i);
+  list_add_elem_at_back(&list_head, &j);
+  list_add_elem_at_back(&list_head, &k);
+
+  size = list_get_size(list_head);
+  printf("Il y a %u elements dans la liste\n", size);
+  list_dump(list_head, &int_displayer);
+
+  list_del_elem_at_back(&list_head);
+
+  size = list_get_size(list_head);
+  printf("Il y a %u elements dans la liste\n", size);
+  list_dump(list_head, &int_displayer);
+
+  return (0);
+}

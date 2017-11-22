@@ -1,0 +1,63 @@
+#!/usr/bin/python -O
+# -*- coding: utf-8 -*-
+## 109titrage for 109titrage in /home/rodrig_1/rendu/Maths/109titrage
+##
+## Made by gwendoline rodriguez
+## Login   <rodrig_1@epitech.net>
+##
+## Started on  Thu Dec  4 11:17:48 2014 gwendoline rodriguez
+## Last update Sun Apr  5 23:44:11 2015 gwendoline rodriguez
+##
+
+import sys
+import math as mt
+import numpy as n
+import io
+import matplotlib.pyplot as plt
+
+ordon = []
+absci = []
+derivx = []
+derivy = []
+tab = []
+line = []
+data = []
+x = 0
+y = 0
+xmax = 0
+ymax = 0
+rest = 0
+xtmp = 0
+ytmp = 0
+try:
+    if (len(sys.argv) == 1):
+        while (line):
+            data = raw_input()
+            data = unicode(data)
+            line = io.StringIO(data)
+            line = line.readline()
+            tab = line.split(";", 1)
+            x = float(tab[0])
+            y = float(tab[1])
+            absci.append(x)
+            ordon.append(y)
+            if (rest <= ymax):
+                xmax = x
+                ymax = rest
+                derivx.append(x)
+                derivy.append(ymax)
+            else:
+                dervix.append(x)
+                derivy.append(rev)
+            if (xtmp - x) != 0:
+                res = (ytmp - y) / (xtmp - x)
+            xtmp = x
+            ytmp = y
+        print 'Volume equivalent = ' + str(xmax) + 'mL'
+        plt.plot(absci, ordon)
+        plt.plot(derivx, derivy)
+        plt.show()
+    else:
+        import usage
+except ValueError:
+    print "Error. Exit."

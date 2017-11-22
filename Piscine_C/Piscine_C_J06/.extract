@@ -1,0 +1,15 @@
+
+:;exec emacs --batch -Q -l $0 -f main "$@"
+(defun main ()
+  (setq fun-name (nth 0 command-line-args-left))
+  (if (eq fun-name nil)
+      (progn
+        (message "Usage: c-extract-function <tag> [to-file]\n")
+        (quit-window)))
+  (setq to-file (nth 1 command-line-args-left))
+  (if (eq to-file nil)
+      (setq to-file "/dev/stdout"))
+  (setq tags-file-name "TAGS")
+  (find-tag fun-name)
+  (c-mark-function)
+  (write-region (mark) (point) to-file))

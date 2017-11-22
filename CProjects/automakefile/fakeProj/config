@@ -1,0 +1,15 @@
+main.c;
+EXEC;fakeProj
+calcul.c;
+REP;fakeProj
+COMP;gcc
+SOURCES:.
+CFLAGS;-Wextra
+LDFLAGS;
+HEADERS;include
+LIBS;
+REP_SVG;fakeProj_SVG
+ZIP;tarball
+ZIPFLAGS;-cvvf
+UNZIP;tar
+UNZIPFLAGS;-xv

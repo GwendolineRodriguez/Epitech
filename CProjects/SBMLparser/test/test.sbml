@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+<model name="Homo sapiens Glycolysis" id="Cytosol">
+<listOfCompartments>
+<compartment id="Cytosol" name="Homo sapiens, Cell, Cytosol"/>
+</listOfCompartments>
+<listOfSpecies>
+<species compartment="Cytosol" name="Adenosine diphosphate" id="Compound1034"/>
+<species compartment="Cytosol" name="Glucose 6-phosphate" id="Compound1083"/>
+<species compartment="Cytosol" name="Alpha-D-Glucose" id="Compound1851"/>
+<species compartment="Cytosol" name="Adenosine triphosphate" id="Compound414"/>
+</listOfSpecies>
+<listOfReactions>
+<reaction reversible="false" name="Hexokinase-3" id="Reaction1232">
+<listOfReactants>
+<speciesReference stoichiometry="1" species="Compound1851"/>
+<speciesReference stoichiometry="1" species="Compound414"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference stoichiometry="1" species="Compound1083"/>
+<speciesReference stoichiometry="1" species="Compound1034"/>
+</listOfProducts>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>

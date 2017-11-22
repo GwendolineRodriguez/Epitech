@@ -1,0 +1,38 @@
+#!/usr/bin/python -O
+# -*- coding: utf-8 -*-
+## 108monstre for 108monstre in /home/rodrig_1/rendu/Maths/108monstre
+##
+## Made by gwendoline rodriguez
+## Login   <rodrig_1@epitech.net>
+##
+## Started on  Thu Dec  4 11:17:48 2014 gwendoline rodriguez
+## Last update Mon Mar 16 18:32:38 2015 gwendoline rodriguez
+##
+
+import sys
+import math as mt
+import numpy as n
+import matplotlib.pyplot as plt
+
+ordon = []
+absci = []
+try:
+    if (len(sys.argv) == 3 and float(sys.argv[1]) >= 2 and float(sys.argv[2]) >= 0):
+        a = float(sys.argv[1])
+        nmax = int(sys.argv[2])
+        x = -2
+        while (x <= 2):
+            k = 0
+            y = 0
+            while (k <= nmax):
+                y = y + ((mt.cos(mt.pow(a, k) * mt.pi * x)) / mt.pow(2, k))
+                k = k + 1
+            ordon.append(y)
+            absci.append(x)
+            x = x + 0.01
+        plt.plot(absci, ordon)
+        plt.show()
+except ValueError:
+    print "a and nmax must be numbers"
+else:
+    import usage

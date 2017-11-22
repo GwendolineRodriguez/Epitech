@@ -1,0 +1,49 @@
+#!/usr/bin/python -O
+# -*- coding: utf-8 -*-
+## 103architecte.py for 103architecte in /home/rodrig_1/rendu/Maths/103architecte
+##
+## Made by gwendoline rodriguez
+## Login   <rodrig_1@epitech.net>
+##
+## Started on  Thu Dec  4 11:17:48 2014 gwendoline rodriguez
+## Last update Fri Dec 12 14:20:02 2014 gwendoline rodriguez
+##
+
+import sys
+import math
+import numpy
+
+i = 3
+n = numpy
+mt = math
+matrice = n.eye(3)
+if (len(sys.argv) > 4):
+    x0 = int(sys.argv[1])
+    y0 = int(sys.argv[2])
+    x1 = x0
+    y1 = y0
+    while (i < len(sys.argv)):
+        if sys.argv[i] == 'H':
+            print "homothétie de rapports "+str(sys.argv[i + 1])+" et "+str(sys.argv[i + 2])
+            x1 = x1 * int(sys.argv[i + 1])
+            y1 = y1 * int(sys.argv[i + 2])
+        if sys.argv[i] == 'T':
+            print "translation de vecteur ("+str(sys.argv[i + 1])+","+str(sys.argv[i + 2])+")"
+            x1 = x1 + int(sys.argv[i + 1])
+            y1 = y1 + int(sys.argv[i + 2])
+        if sys.argv[i] == 'R':
+            print "rotation d'angle "+str(sys.argv[i + 1])+" degrés"
+            x1 = (x1 * mt.cos(mt.radians(float(sys.argv[i + 1])))) - (y1 * mt.sin(mt.radians(float(sys.argv[i + 1]))))
+            y1 = (x1 * mt.sin(mt.radians(float(sys.argv[i + 1])))) + (y1 * mt.cos(mt.radians(float(sys.argv[i + 1]))))
+        if sys.argv[i] == 'S':
+            print "symétrie par rappport à un axe incliné de "+str(sys.argv[i + 1])+" degrés"
+            x1 = (x1 * mt.cos(2 * mt.radians(float(sys.argv[i + 1])))) + (y1 * mt.sin(2 * mt.radians(float(sys.argv[i + 1]))))
+            y1 = -((x1 * mt.sin(2 * mt.radians(float(sys.argv[i + 1])))) - (y1 * mt.cos(2 * mt.radians(float(sys.argv[i + 1])))))
+        else:
+            pass
+        i = i + 1
+    for i in range(3) :
+        print "\t%.3f\t%.3f\t%.3f" % (matrice[i][0], matrice[i][1], matrice[i][2])
+    print "("+str(sys.argv[1])+","+str(sys.argv[2])+") => (%.3f" % round(x1, 3)+",%.3f" % round(y1, 3)+")"
+else:
+    import usage
