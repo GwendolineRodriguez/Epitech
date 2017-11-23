@@ -12,13 +12,13 @@ See [Details](./MathPythons/).
 
 ## Piscine_C
 The famous Epitech "Piscine", 4 weeks of intense programming to learn all the basics.  
-See [Details](./Piscine_C).
+See [Details](./Piscine_C/).
 
 ## Piscine_cpp
 Second "Piscine of Epitech"
 Collection of C++ programs to learn Object-oriented programming  
-See [Details](./Piscine_cpp).
+See [Details](./Piscine_cpp/).
 
 ## SpaceBomber
 Video Game Project written in C++, replique of the arcade game BomberMan but with ships.  
-See [Details](./SpaceBomber).
+See [Details](./SpaceBomber/).

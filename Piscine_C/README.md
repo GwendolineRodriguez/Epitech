@@ -21,6 +21,7 @@
 <!-- /MarkdownTOC -->
 
 <a name="day1"></a>
+
 ## Day1
 - [ex00](./Piscine_C_J01/ex00)
 ```C
@@ -28,17 +29,20 @@
 ```
 
 <a name="day2"></a>
+
 ## Day2
 - [ex00](./Piscine_C_J01/ex00)
 ```C
 
 ```
 <a name="day3"></a>
+
 ## Day3
 - [ex00](./Piscine_C_J01/ex00)
 ```C
 
 ```
 <a name="resources"></a>
+
 ## Resources
 You will be able to find all the original subjects in the file [Subjects](./Subjects)
