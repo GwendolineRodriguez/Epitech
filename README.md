@@ -4,23 +4,23 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Epitech.png/1598px-Epitech.png" width="250">
 
 ## Table of Contents 
-- [CPool](#Piscine_C)
+- [CPool](#Piscine_C): **Unix and C Basics**
     - The famous Epitech "Pool", 4 weeks of intense programming to learn all the basics of programmation.
-- [CProjects](#CProjects)
+- [CProjects](#CProjects): **Advanced C language**
     - A collection of projects written in C.
-- [CppPool](#Piscine_cpp)
+- [CppPool](#Piscine_cpp): **C++ Basics**
     - Second "Piscine" of Epitech, C++ programs to learn Object-oriented programming.
-- [CppProjects](#CppProjects)
+- [CppProjects](#CppProjects): **Advanced C++ Language**
     - A collection of projects written in C++.
-- [Mathematics](#Mathematics)
+- [Mathematics](#Mathematics): **Statistics and Probabilities**
     - A collection of mathematicals programs mainly written in python.
-- [SpaceBomber](#SpaceBomber)
+- [SpaceBomber](#SpaceBomber): **First Deployable Video Game with IA**
     - Video Game Project written in C++, replique of the arcade game BomberMan but with ships.
 
 
 <a name="Piscine_C"></a>
 
-## [CPool](./Piscine_C/)
+## [CPool](./Piscine_C/): **Unix and C Basics**
 - [Day01](Piscine_C/Piscine_C_J01): **Unix Environments**
     - linux files, scripts, git
 
@@ -98,17 +98,17 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
 
 <a name="CProjects"></a>
 
-## [CProjects](./CProjects/)
+## [CProjects](./CProjects/): **Advanced C language**
 description in progress.
 
 <a name="Piscine_cpp"></a>
 
-## [CppPool](./Piscine_cpp/)
+## [CppPool](./Piscine_cpp/): **C++ Basics**
 description in progress.
 
 <a name="CppProjects"></a>
 
-## [CppProjects](./CppProjects/)
+## [CppProjects](./CppProjects/): **Advanced C++ Language**
 
 ```javascript
 $ ./water
@@ -117,11 +117,11 @@ bottles: 120
 ```
 <a name="Mathematics"></a>
 
-## [Mathematics](./Mathematics/)
+## [Mathematics](./Mathematics/): **Statistics and Probabilities**
 See this [README.md](./Mathematics/) to look at more details.
 
 <a name="SpaceBomber"></a>
 
-## [SpaceBomber](./SpaceBomber/)
+## [SpaceBomber](./SpaceBomber/): **First Deployable Video Game with IA**
 ![screenshot](./SpaceBomber/screenshot.png)
 See this [README.md](./SpaceBomber/) to look at more details.
