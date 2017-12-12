@@ -14,20 +14,20 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
     - A collection of projects written in C++.
 - [Mathematics](#Mathematics): **Statistics and Probabilities**
     - A collection of mathematicals programs mainly written in python.
-- [SpaceBomber](#SpaceBomber): **First Deployable Video Game with IA**
+- [SpaceBomber](#SpaceBomber): **First Deployable Video Game with AI**
     - Video Game Project written in C++, replique of the arcade game BomberMan but with ships.
 
 
 <a name="CPool"></a>
 
 ## [CPool](./CPool/): **Unix and C Basics**
-- [Day01](CPool/CPool_J01): **Unix Environments**
+- [Day01](CPool/CPool_Day01): **Unix Environments**
     - linux files, scripts, git
 
-- [Day02](CPool/CPool_J02): **Shell language**
+- [Day02](CPool/CPool_Day02): **Shell language**
     - linux bash commands: ls, cat, grep, cut, find, sed, wc
 
-- [Day03](CPool/CPool_J03): **First C Programming**
+- [Day03](CPool/CPool_Day03): **First C Programming**
     - my\_aff_alpha.c : display alphabet.
     - my\_aff_chiffre.c : display digits.
     - my\_aff_comb.c : display in the ascending order all the combinations of three different digits in the ascending order.
@@ -35,7 +35,7 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
     - my_isneg.c : check and display if the number in parameter is negative.
     - my\_put_nbr.c : display a number from a string given as parameter.
 
-- [Day04](CPool/CPool_J04): **Pointers**
+- [Day04](CPool/CPool_Day04): **Pointers**
     - my\_putstr.c : display string from a string given as parameter.
     - my\_sort\_int_tab.c : sort an integer array.
     - my\_strlen.c : return lenght of a given string parameter.
@@ -43,13 +43,13 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
     - my_isneg.c : check and display if the number in parameter is negative.
     - my\_put_nbr.c : display a number from a given string parameter.
 
-- [Day05](CPool/CPool_J05): **Recursivity**
+- [Day05](CPool/CPool_Day05): **Recursivity**
     - my\_factorielle_it.c : return the factoriel of an integer given in parameter in a iterative way.
     - my\_factorielle_rec.c : return the factoriel of an integer given in parameter in a recursive way.
     - my\_power_it.c : return the power of an integer given in parameter in a iterative way.
     - my\_power_rec.c : return the power of an integer given in parameter in a recursive way.
 
-- [Day06](CPool/CPool_J06): **String Manipulation**
+- [Day06](CPool/CPool_Day06): **String Manipulation**
     - my_strcpy.c : copies a string into another.
     - my_strncpy.c : copies n characters from a string into another.
     - my_revstr.c : reverses a string.
@@ -59,30 +59,30 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
     - my_strupcase.c : puts every letter of every word in it in uppercase.
     - my_strlowcase.c : puts every letter of every word in it in lowercase.
 
-- [Day07](CPool/CPool_J07): **Libmy, Arguments**
+- [Day07](CPool/CPool_Day07): **Libmy, Arguments**
     - my_strcat.c : copies a string after another.
     - my_strncat.c : concatenates n characters of the src string to the end of the dest string.
     - my\_aff_params.c : displays its arguments.
     - my\_rev_params.c : displays all the arguments received on the command line in reverse order.
     - lib : creation of a personal libmy.a
 
-- [Day08](CPool/CPool_J08): **Compilation, Allocation**
+- [Day08](CPool/CPool_Day08): **Compilation, Allocation**
     - my_strdup.c : allocates memory and copies the string given as argument in it.
     
-- [Day09](CPool/CPool_J09): **Structures**
+- [Day09](CPool/CPool_Day09): **Structures**
     - my_macroABS.h : Write a macro, named ABS, that replaces an argument with an absolute value.
     - my.h : Write your my.h header file that contains the prototypes of all the functions exposed by your libmy.a.
 
-- [Day10](CPool/CPool_J10): **Do-op and Makefile**
+- [Day10](CPool/CPool_Day10): **Do-op and Makefile**
     - How to make a Makefile
     - do-op.c : return the power of an integer given in parameter in a recursive way.
 
-- [Day11](CPool/CPool_J11): **Linked List**
+- [Day11](CPool/CPool_Day11): **Linked List**
     - my\_params\_in_list.c :  creates a new list from the command line arguments.
     - my\_list\_size.c : returns the number of elements on the list.
     - my\_rev\_list.c : reverses the order of the list’s elements.
 
-- [Day12](CPool/CPool_J12): **File Descriptors**
+- [Day12](CPool/CPool_Day12): **File Descriptors**
     - cat.c : Reproduce the behavior of the cat bash command line.
 
 - [Rushs](CPool/Rushs/):
@@ -118,6 +118,6 @@ See this [README.md](./Mathematics/) to look at more details.
 
 <a name="SpaceBomber"></a>
 
-## [SpaceBomber](./SpaceBomber/): **First Deployable Video Game with IA**
+## [SpaceBomber](./SpaceBomber/): **First Deployable Video Game with AI**
 <!-- ![screenshot](./SpaceBomber/screenshot.png) -->
 See this [README.md](./SpaceBomber/) to look at more details.
