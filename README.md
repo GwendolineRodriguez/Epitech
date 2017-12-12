@@ -109,12 +109,8 @@ description in progress.
 <a name="CppProjects"></a>
 
 ## [CppProjects](./CppProjects/): **Advanced C++ Language**
+description in progress.
 
-```javascript
-$ ./water
-minutes: 10
-bottles: 120
-```
 <a name="Mathematics"></a>
 
 ## [Mathematics](./Mathematics/): **Statistics and Probabilities**
