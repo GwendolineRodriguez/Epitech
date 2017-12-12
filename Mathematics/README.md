@@ -1,4 +1,4 @@
-# MathsPython
+# Mathematics
 A collection of maths projects written in python or C.
 
 ## 101pong
@@ -6,7 +6,7 @@ a program that print :
 • the coordinates of the ball speed vector,
 • the ones of the ball in a given amount of time,
 • the angle at which the ball will hit the bat(if ever the ball will indeed hit the bat, at any time from t=0).  
-```javascript
+```python
 $> ./101pong 1.1 3 5 -7 9 2 4 The speed vector coordinates are : (-8.10;6.00;-3.00)
 At time t+4, ball coordinates will be : (-39.40;33.00;-10.00)
 The incidence angle is :
