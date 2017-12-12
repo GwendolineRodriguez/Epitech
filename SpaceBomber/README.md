@@ -1,5 +1,5 @@
 # SpaceBomber
-SpaceBomber is an arcade game, replication of the famous BomberMan but with Ships!.
+SpaceBomber is an arcade game, replication of the famous BomberMan but with Space Ships!.
 - 2D
 - IA included
 - multi player mode
@@ -11,7 +11,7 @@ SpaceBomber is an arcade game, replication of the famous BomberMan but with Ship
 
 ## Installation
 for windows :
-just open the .exe file.
+- just open the .exe file.
 
 for linux :
 ```
