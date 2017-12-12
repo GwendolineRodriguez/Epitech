@@ -18,7 +18,7 @@ for linux :
 make install
 ```
 
-## Screenshots
+<!-- ## Screenshots
 ![screenshot](.screenshot.png)
-![screenshot](.screenshot2.png)
+![screenshot](.screenshot2.png) -->
 

@@ -106,7 +106,7 @@ $> head -n 12 file
 ```javascript
 $> ./monstre -h
 USAGE
-./108monstre fun a0 a1 a2....
+./monstre fun a0 a1 a2....
 DESCRIPTION
 fun function to be applied, among at least "EXP", "COS", "SIN", "COSH" and "SINH"
 ai coeficients of the matrix

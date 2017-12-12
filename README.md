@@ -119,5 +119,5 @@ See this [README.md](./Mathematics/) to look at more details.
 <a name="SpaceBomber"></a>
 
 ## [SpaceBomber](./SpaceBomber/): **First Deployable Video Game with IA**
-![screenshot](./SpaceBomber/screenshot.png)
+<!-- ![screenshot](./SpaceBomber/screenshot.png) -->
 See this [README.md](./SpaceBomber/) to look at more details.
