@@ -4,23 +4,18 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Epitech.png/1598px-Epitech.png" width="250">
 
 ## Table of Contents 
-- [CPoolC](#Piscine_C)
-    - The famous Epitech "Pool", 4 weeks of intense programming to learn all the basics of programmation.  
-
+- [CPool](#Piscine_C)
+    - The famous Epitech "Pool", 4 weeks of intense programming to learn all the basics of programmation.
 - [CProjects](#CProjects)
-    - A collection of projects written in C. 
-
-- [Pool_cpp](#Piscine_cpp)
-    - Second "Piscine" of Epitech, C++ programs to learn Object-oriented programming. 
-
+    - A collection of projects written in C.
+- [CppPool](#Piscine_cpp)
+    - Second "Piscine" of Epitech, C++ programs to learn Object-oriented programming.
 - [CppProjects](#CppProjects)
     - A collection of projects written in C++.
-
 - [Mathematics](#Mathematics)
-    - A collection of mathematicals programs mainly written in python.  
-
+    - A collection of mathematicals programs mainly written in python.
 - [SpaceBomber](#SpaceBomber)
-    - Video Game Project written in C++, replique of the arcade game BomberMan but with ships.  
+    - Video Game Project written in C++, replique of the arcade game BomberMan but with ships.
 
 
 <a name="Piscine_C"></a>
@@ -90,7 +85,7 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
 - [Day12](Piscine_C/Piscine_C_J12): **File Descriptors**
     - cat.c : Reproduce the behavior of the cat bash command line.
 
-- [Rushs](Piscine_C/Rushs/)
+- [Rushs](Piscine_C/Rushs/):
     - colle1-1.c : display a square with designated pattern.
     - colle2.c : display a string given in parameters by adding spaces to it and then by removing them.
     - colle3.c : displays the name of rush1, and the dimensions of his square.
@@ -98,7 +93,7 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
     - match.c : returns the number of combinations that match between two strings.
     - eval_expr : function that takes a string as parameter, which represents a mathematical expression, evaluates this expression and returns the result as an integer.
 
-- [Subjects](Piscine_C/Subjects)
+- [Subjects](Piscine_C/Subjects):
     You will be able to find all the original subjects in the file [Subjects](./Piscine_C/Subjects)
 
 <a name="CProjects"></a>
@@ -108,7 +103,7 @@ description in progress.
 
 <a name="Piscine_cpp"></a>
 
-## [Piscine_cpp](./Piscine_cpp/)
+## [CppPool](./Piscine_cpp/)
 description in progress.
 
 <a name="CppProjects"></a>
