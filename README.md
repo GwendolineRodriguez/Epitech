@@ -26,6 +26,8 @@ Some <a href="http://www.epitech.eu">Epitech</a> school projects made in 2014/20
 <a name="CPool"></a>
 
 ## [CPool](./CPool/): **Unix and C Basics**
+<p align="right"><a href="#top">Back to top</a></p>
+
 - [Day01](CPool/CPool_Day01): **Unix Environments**
     - linux files, scripts, git
 
@@ -103,12 +105,15 @@ Some <a href="http://www.epitech.eu">Epitech</a> school projects made in 2014/20
 
 <a name="CProjects"></a>
 
-## [CProjects](./CProjects/): **Advanced C language** <p align="right"><a href="#top">Back to top</a></p>
+## [CProjects](./CProjects/): **Advanced C language**
+<p align="right"><a href="#top">Back to top</a></p>
 description in progress.
 
 <a name="CppPool"></a>
 
 ## [CppPool](./CppPool/): **C++ Basics**
+<p align="right"><a href="#top">Back to top</a></p>
+
 - [Day01](CppPool/cpp_d01): **Storage Classes**
     - white_rabbit.c : function that follow Alice’s journey.
     - menger : display a fractal curve based on squares, with the size and depth given in parameters.
@@ -232,16 +237,22 @@ do will be a KoalaAction member function.
 <a name="CppProjects"></a>
 
 ## [CppProjects](./CppProjects/): **Advanced C++ Language**
+<p align="right"><a href="#top">Back to top</a></p>
+
 - trade : build a trader bot.
 - plazza : realize a scrapper, which is composed of a main program, with an user interface, that accepts new commands, of several process, themselves with several threads, themselves looking for mails inside several files.
 
 <a name="Mathematics"></a>
 
 ## [Mathematics](./Mathematics/): **Statistics and Probabilities**
+<p align="right"><a href="#top">Back to top</a></p>
+
 See this [README.md](./Mathematics/) to get more details.
 
 <a name="SpaceBomber"></a>
 
 ## [SpaceBomber](./SpaceBomber/): **First Deployable Video Game with AI**
+<p align="right"><a href="#top">Back to top</a></p>
+
 <!-- ![screenshot](./SpaceBomber/screenshot.png) -->
 See this [README.md](./SpaceBomber/) to get more details.
