@@ -1,4 +1,5 @@
 # Epitech Computer Science School Projects
+<br/><br/>
 <p align="center">
 Some <a href="http://www.epitech.eu">Epitech</a> school projects made in 2014/2015.
 <br/><br/>
@@ -18,7 +19,7 @@ Some <a href="http://www.epitech.eu">Epitech</a> school projects made in 2014/20
     - A collection of mathematicals programs mainly written in python.
 - [SpaceBomber](#SpaceBomber): **First Deployable Video Game with AI**
     - Video Game Project written in C++, reproduction of the arcade game BomberMan but with space ships.
-
+- [Notes on my work](#notes)
 
 <a name="CPool"></a>
 
@@ -235,10 +236,15 @@ do will be a KoalaAction member function.
 <a name="Mathematics"></a>
 
 ## [Mathematics](./Mathematics/): **Statistics and Probabilities**
-See this [README.md](./Mathematics/) to look at more details.
+See this [README.md](./Mathematics/) to get more details.
 
 <a name="SpaceBomber"></a>
 
 ## [SpaceBomber](./SpaceBomber/): **First Deployable Video Game with AI**
 <!-- ![screenshot](./SpaceBomber/screenshot.png) -->
-See this [README.md](./SpaceBomber/) to look at more details.
+See this [README.md](./SpaceBomber/) to get more details.
+
+<a name="notes"></a>
+
+## Notes
+Those projects are not 100% corrects, I was learning.
