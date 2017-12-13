@@ -8,7 +8,7 @@ Some [Epitech](http://www.epitech.eu) school projects made in 2014/2015.
     - The famous Epitech "Pool", 4 weeks of intense programming to learn all the basics of programmation.
 - [CProjects](#CProjects): **Advanced C language**
     - A collection of projects written in C.
-- [CppPool](#CPoolpp): **C++ Basics**
+- [CppPool](#CppPool): **C++ Basics**
     - Second "Piscine" of Epitech, C++ programs to learn Object-oriented programming.
 - [CppProjects](#CppProjects): **Advanced C++ Language**
     - A collection of projects written in C++.
