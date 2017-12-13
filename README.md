@@ -17,7 +17,7 @@ Some <a href="http://www.epitech.eu">Epitech</a> school projects made in 2014/20
 - [Mathematics](#Mathematics): **Statistics and Probabilities**
     - A collection of mathematicals programs mainly written in python.
 - [SpaceBomber](#SpaceBomber): **First Deployable Video Game with AI**
-    - Video Game Project written in C++, replique of the arcade game BomberMan but with ships.
+    - Video Game Project written in C++, reproduction of the arcade game BomberMan but with space ships.
 
 
 <a name="CPool"></a>
